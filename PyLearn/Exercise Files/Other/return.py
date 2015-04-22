@@ -6,4 +6,4 @@ def askFloat(prompt):
     return float(input(prompt))
 x = askFloat("Enter a floating-point number: ")
 james_limit = allowed_dating_are(x)
-print("James' you can only date girls over", james_limit)
+print("James'  can only date girls over", james_limit)
