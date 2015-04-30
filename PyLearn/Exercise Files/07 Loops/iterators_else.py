@@ -4,11 +4,11 @@
 # Copyright 2010 The BearHeart Group, LLC
 
 def main():
-    s = 'this is a string '
-    i = 0
-    while(i < len(s)):
-        print(s[i], end='')
-        i += 1
+    my_string = 'this is a string '
+    item = 0
+    while(item < len(my_string)):
+        print(my_string[item], end='')
+        item += 1
     else:
         print("this is else 1")
 
